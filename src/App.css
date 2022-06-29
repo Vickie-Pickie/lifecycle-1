@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.App {
+  width: 650px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.title-input_wrapper,
+.offset-input_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#titleId, #offsetId {
+  display: block;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.clocks-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clock-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clock-title {
+  font-weight: 600;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.clock-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-icons {
+  cursor: pointer;
+}
